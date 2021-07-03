@@ -6,7 +6,7 @@
 
         <project path="device/xiaomi/tissot" name="device_xiaomi_tissot" remote="mp" revision="pa" clone-depth="1" />
         <project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="mp" revision="pa" clone-depth="1" />
-        <remove-project name="android_vendor_pa"/>
+        <remove-project name="AOSPA/android_vendor_pa"/>
         <project path="vendor/pa" name="android_vendor_pa" revision="ruby" remote="mp" clone-depth="1" />
 
         <remote name="pe"
