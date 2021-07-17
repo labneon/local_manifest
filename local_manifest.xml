@@ -15,17 +15,18 @@
         <remote name="pixel"
                 fetch="https://github.com/PixelExperience" />
         
-        <remote name="nm"
+        <remote name="nm" 
                 fetch="https://github.com/neonmicky" />
+
        
-        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="nm" revision="11" clone-depth="1" />
+        <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="mp" revision="11" clone-depth="1" />
         <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pixel" revision="eleven" />
         <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pixel" revision="eleven" />
 
-        <remote name="vendor"
-                fetch="https://github.com/PalladiumOS-Devices" />
-        <project path="vendor/xiaomi/tissot" name="vendor_xiaomi_tissot" remote="vendor" revision="11" clone-depth="1" />
-        <project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="vendor" revision="11" clone-depth="1" />
+ 
+  
+        <project path="vendor/xiaomi/tissot" name="vendor" remote="nm" revision="tissot" clone-depth="1" />
+        <project path="vendor/xiaomi/msm8953-common" name="vendor" remote="nm" revision="common" clone-depth="1" />
 
         <remote name="los" fetch="https://github.com/LineageOS" />
         <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-18.1-caf-msm8996" />
