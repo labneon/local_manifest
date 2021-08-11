@@ -4,7 +4,7 @@
         <remote name="ln"
                 fetch="https://github.com/labneon" />
 
-        <remote name="pixel"
+        <remote name="p"
                 fetch="https://github.com/PixelExperience-Devices" />
 
         <remote name="pixel-gitlab"
@@ -14,7 +14,7 @@
                 fetch="https://github.com" />
 
         <project path="device/xiaomi/rosy" name="device_xiaomi_rosy" remote="ln" revision="ssos" clone-depth="1" />        
-        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="pixel" revision="eleven" clone-depth="1" />
+        <project path="kernel/xiaomi/rosy" name="kernel_xiaomi_rosy" remote="p" revision="eleven" clone-depth="1" />
         <project path="vendor/xiaomi/rosy" name="vendor_xiaomi_rosy"  remote="pixel-gitlab" clone-depth="1" /> 
         <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" name="mvaisakh/gcc-arm64" remote="gih" revision="gcc-master" />
         <project path="prebuilts/gcc/linux-x86/arm/arm-eabi" name="mvaisakh/gcc-arm" remote="gh" revision="gcc-master" />
