@@ -12,8 +12,8 @@
         <project path="kernel/xiaomi/msm8953" name="kernel_xiaomi_tissot" remote="ln" revision="11" clone-depth="1" />
         
     <remote name="pixel" fetch="https://github.com/PixelExperience/" />
-    <remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403" />
-    <project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r416183d" remote="neonmicky" revision="11.0" clone-depth="1" /> 
+    <!--<remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r433403" />-->
+    <!--<project path="prebuilts/clang/host/linux-x86/clang-latest" name="android_prebuilts_clang_host_linux-x86_clang-r416183d" remote="neonmicky" revision="11.0" clone-depth="1" />--> 
     <remove-project name="crdroidandroid/android_hardware_qcom_audio" />
     <remove-project name="crdroidandroid/android_hardware_qcom_display" />
     <remove-project name="crdroidandroid/android_hardware_qcom_media" />
